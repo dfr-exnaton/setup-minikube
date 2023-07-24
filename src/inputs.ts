@@ -16,6 +16,7 @@ export const setArgs = (args: string[]) => {
     {key: 'mount-path', flag: '--mount-string'},
     {key: 'network-plugin', flag: '--network-plugin'},
     {key: 'wait', flag: '--wait'},
+    {key: 'bin-path', flag: '--bin-path'}
   ]
   inputs.forEach((input) => {
     const value = getInput(input.key)
